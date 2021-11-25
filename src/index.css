@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
   margin: 0;
@@ -8,16 +8,16 @@
 
 body {
   margin: 0;
-  background-color: #f3fbb8;
-  font-family: "Oswald", sans-serif;
+  background-color: honeydew;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #333;
+  color: #355e3b;
 }
 
 header,
 footer {
-  background-color: #bafbbb;
+  background-color: #c4ffc4;
   height: 100px;
   padding: 1rem;
   text-align: center;
@@ -44,33 +44,34 @@ main > div {
 .circle {
   height: 200px;
   width: 200px;
-  background-color: #f4b4b4;
+  background-color: #fffdd0;
   border-radius: 50%;
+  box-shadow: 0 0 5px #355e3b;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 button {
-  background-color: #bafbbb;
-  font-family: "Oswald", sans-serif;
-  color: #333;
+  background-color: #c4ffc4;
+  font-family: "Open Sans", sans-serif;
+  color: #355e3b;
   padding: 1rem;
   border-radius: 5px;
   border: none;
   margin: 1rem;
-  box-shadow: 0 0 5px gray;
+  box-shadow: 0 0 5px #355e3b;
   font-size: 1rem;
 }
 
 button:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px #355e3b;
 }
 
 .odd {
-  background-color: #f9b9f6;
+  background-color: mistyrose;
 }
 .even {
-  background-color: #bbc4f2;
+  background-color: #b9f2ff;
 }
