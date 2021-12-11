@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 
 * {
   margin: 0;
@@ -8,18 +8,29 @@
 
 body {
   margin: 0;
-  background-color: honeydew;
-  font-family: "Open Sans", sans-serif;
+  background: rgb(255, 223, 225);
+  background: radial-gradient(
+    circle,
+    rgba(255, 223, 225, 1) 21%,
+    rgba(190, 151, 145, 1) 100%
+  );
+  font-family: "Oxygen", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #355e3b;
+  color: #333;
 }
 
-header,
-footer {
-  background-color: #c4ffc4;
+header {
   height: 100px;
-  padding: 1rem;
+  padding-top: 70px;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -44,34 +55,42 @@ main > div {
 .circle {
   height: 200px;
   width: 200px;
-  background-color: #fffdd0;
+  margin-left: 140px;
+  background-color: #be9791;
   border-radius: 50%;
-  box-shadow: 0 0 5px #355e3b;
+  box-shadow: 5px 2px 5px #cdafb0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 button {
-  background-color: #c4ffc4;
-  font-family: "Open Sans", sans-serif;
-  color: #355e3b;
+  background-color: #cdafb0;
+  font-family: "Oxygen", sans-serif;
+  color: #333;
+  width: 130px;
   padding: 1rem;
   border-radius: 5px;
   border: none;
   margin: 1rem;
-  box-shadow: 0 0 5px #355e3b;
+  margin-top: 2rem;
+  box-shadow: 0 0 5px #4f4f4f;
   font-size: 1rem;
 }
 
 button:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px #355e3b;
+  box-shadow: 0 0 10px #4f4f4f;
+  background-color: #eabfb9;
 }
 
 .odd {
-  background-color: mistyrose;
+  background-color: #fffffb;
+  color: #4f4f4f;
+  box-shadow: 0 0 5px #4f4f4f;
 }
 .even {
-  background-color: #b9f2ff;
+  background-color: #4f4f4f;
+  color: #fffffb;
+  box-shadow: 0 0 10px #fffffb;
 }
