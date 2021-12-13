@@ -1,5 +1,5 @@
 # Counter app
 
-## Screenshot
+## Screenshot of the finished project
 
-![Alt text](/public/screenshot.png?raw=true "Optional Title")
+![Alt text](/public/screenshot1.png?raw=true "Optional Title")
